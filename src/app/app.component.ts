@@ -95,6 +95,7 @@ export class AppComponent {
   selectMode(s:string):void{
     this.challenge = s==="1vs1"?false:true;
     this.startPlayer(this.player1);
+    this.won=0;
   }
 
   difficultyMode(s:string):void{
